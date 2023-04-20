@@ -5,11 +5,11 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <Box component="footer" bgcolor="primary.main" py={4}>
+    <Box component="footer" bgcolor="black" py={4}>
       <Container maxWidth="lg">
         <Grid container spacing={3}>
           <Grid item xs={12} sm={4}>
-            <Typography variant="h6" color="secondary">HyperGas Chain</Typography>
+            <Typography variant="h6" color="secondary">GAS-X Chain</Typography>
             <Typography color="secondary" gutterBottom>About Us</Typography>
             <Typography color="secondary" gutterBottom>Blog</Typography>
             <Typography color="secondary" gutterBottom>Contact Us</Typography>

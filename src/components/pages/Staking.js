@@ -11,8 +11,8 @@ import {
 
 const Staking = () => {
   const [amountToStake, setAmountToStake] = useState('');
-  const [rewards, setRewards] = useState(0);
-  const [estimatedEarnings, setEstimatedEarnings] = useState(0);
+  const [rewards] = useState(0);
+  const [estimatedEarnings] = useState(0);
 
   const handleStake = () => {
     // Implement your staking logic here
