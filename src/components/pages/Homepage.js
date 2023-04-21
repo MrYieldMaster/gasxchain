@@ -141,7 +141,7 @@ const Homepage = () => {
             <Typography variant="h6" gutterBottom>
                 Latest Blocks
             </Typography>
-            <TableContainer component={Paper}>
+            <TableContainer component={Paper} >
                 <Table>
                     <TableHead>
                         <TableRow>
