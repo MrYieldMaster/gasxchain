@@ -20,7 +20,41 @@ const nfts = [
     image: 'https://source.unsplash.com/random/200x200',
     price: '100',
   },
-  // Add more NFTs as needed
+  {
+    id: 2,
+    name: 'NFT 2',
+    description: 'An amazing NFT',
+    image: 'https://source.unsplash.com/random/200x200',
+    price: '200',
+  },
+  {
+    id: 3,
+    name: 'NFT 3',
+    description: 'An amazing NFT',
+    image: 'https://source.unsplash.com/random/200x200',
+    price: '300',
+  },
+  {
+    id: 4,
+    name: 'NFT 4',
+    description: 'An amazing NFT',
+    image: 'https://source.unsplash.com/random/200x200',
+    price: '400',
+  },
+  {
+    id: 5,
+    name: 'NFT 5',
+    description: 'An amazing NFT',
+    image: 'https://source.unsplash.com/random/200x200',
+    price: '500',
+  },
+  {
+    id: 6,
+    name: 'NFT 6',
+    description: 'An amazing NFT',
+    image: 'https://source.unsplash.com/random/200x200',
+    price: '600',
+  },
 ];
 
 const NFTMarketplace = () => {
