@@ -125,7 +125,7 @@ const Homepage = () => {
 
       <Box my={4}>
         <Title variant="h6" gutterBottom>
-          News and Updates
+          Blockchain News and Updates
         </Title>
         <Grid container spacing={3}>
         {news.map((item, index) => (
