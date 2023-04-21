@@ -9,33 +9,33 @@ const Footer = () => {
       <Container maxWidth="lg">
         <Grid container spacing={3}>
           <Grid item xs={12} sm={4}>
-            <Typography variant="h6" color="secondary">GAS-X Chain</Typography>
-            <Typography color="secondary" gutterBottom>About Us</Typography>
-            <Typography color="secondary" gutterBottom>Blog</Typography>
-            <Typography color="secondary" gutterBottom>Contact Us</Typography>
-            <Typography color="secondary" gutterBottom>Privacy Policy</Typography>
-            <Typography color="secondary" gutterBottom>Terms of Service</Typography>
+            <Typography variant="h6" color="white">GAS-X Chain</Typography>
+            <Typography color="primary" gutterBottom>About Us</Typography>
+            <Typography color="white" gutterBottom>Blog</Typography>
+            <Typography color="primary" gutterBottom>Contact Us</Typography>
+            <Typography color="white" gutterBottom>Privacy Policy</Typography>
+            <Typography color="primary" gutterBottom>Terms of Service</Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
-            <Typography variant="h6" color="secondary">Resources</Typography>
-            <Link component={RouterLink} to="/wallet" color="secondary" underline="none" display="block">Wallet</Link>
-            <Link component={RouterLink} to="/transactions" color="secondary" underline="none" display="block">Transactions</Link>
-            <Link component={RouterLink} to="/staking" color="secondary" underline="none" display="block">Staking</Link>
-            <Link component={RouterLink} to="/nft-marketplace" color="secondary" underline="none" display="block">NFT Marketplace</Link>
-            <Link component={RouterLink} to="/token-swap" color="secondary" underline="none" display="block">Token Swap</Link>
+            <Typography variant="h6" color="white">Resources</Typography>
+            <Link component={RouterLink} to="/wallet" color="primary" underline="none" display="block">Wallet</Link>
+            <Link component={RouterLink} to="/transactions" color="white" underline="none" display="block">Transactions</Link>
+            <Link component={RouterLink} to="/staking" color="primary" underline="none" display="block">Staking</Link>
+            <Link component={RouterLink} to="/nft-marketplace" color="white" underline="none" display="block">NFT Marketplace</Link>
+            <Link component={RouterLink} to="/token-swap" color="primary" underline="none" display="block">Token Swap</Link>
           </Grid>
           <Grid item xs={12} sm={4}>
-            <Typography variant="h6" color="secondary">Follow Us</Typography>
-            <IconButton edge="start" color="secondary" aria-label="Facebook">
+            <Typography variant="h6" color="white">Follow Us</Typography>
+            <IconButton edge="start" color="primary" aria-label="Facebook">
               <Facebook />
             </IconButton>
-            <IconButton edge="start" color="secondary" aria-label="Twitter">
+            <IconButton edge="start" color="primary" aria-label="Twitter">
               <Twitter />
             </IconButton>
-            <IconButton edge="start" color="secondary" aria-label="LinkedIn">
+            <IconButton edge="start" color="primary" aria-label="LinkedIn">
               <LinkedIn />
             </IconButton>
-            <IconButton edge="start" color="secondary" aria-label="Instagram">
+            <IconButton edge="start" color="primary" aria-label="Instagram">
               <Instagram />
             </IconButton>
           </Grid>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { CssBaseline } from '@mui/material';
+import { CssBaseline, ThemeProvider } from '@mui/material';
 import { Web3ReactProvider } from '@web3-react/core';
 import Web3 from 'web3';
 
@@ -14,6 +14,8 @@ import NFTMarketplace from './components/pages/NFTMarketplace';
 import TokenSwap from './components/pages/TokenSwap';
 import Homepage from './components/pages/Homepage';
 
+import theme from './components/common/theme';
+
 function App() {
   const getLibrary = (provider) => {
     const library = new Web3(provider);
@@ -24,6 +26,7 @@ function App() {
   return (
     <Web3ReactProvider getLibrary={getLibrary}>
       <Router>
+        <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header />
         
@@ -37,6 +40,7 @@ function App() {
           <Route path="/token-swap" element={<TokenSwap />} />
         </Routes>
         <Footer />
+        </ThemeProvider>
       </Router>
     </Web3ReactProvider>
   );
