@@ -42,6 +42,10 @@ const Header = () => {
   };
 
   const menuItems = {
+    Home: [
+      { path: '/', label: 'Home' },
+      //{ path: '/about', label: 'About' },
+    ],
     blockchain: [
       // { path: '/blocks', label: 'Blocks' },
       { path: '/transactions', label: 'Transactions' },
@@ -49,13 +53,15 @@ const Header = () => {
     ],
     validators: [
       { path: '/staking', label: 'Staking' },
-      { path: '/dashboard', label: 'dashboard' },
       // { path: '/validators', label: 'Validators' },
+      // { path: '/validators-leaderboard', label: 'Validators LeaderBoard' },
     ],
     resources: [
       { path: '/wallet', label: 'Wallet' },
       { path: '/nft-marketplace', label: 'NFT Marketplace' },
       { path: '/token-swap', label: 'Token Swap' },
+      { path: '/staking', label: 'Staking' },
+      { path: '/dashboard', label: 'dashboard' },
       // { path: '/token-list', label: 'Token List' },
      //  { path: '/token-bridge', label: 'Token Bridge' },
       // { path: '/token-faucet', label: 'Token Faucet' },
@@ -70,12 +76,12 @@ const Header = () => {
           <img
             ref={logoRef}
             src={logo}
-            alt="HyperGas Logo"
+            alt="Inferno Logo"
             style={{ width: '60px', marginRight: '15px' }}
           />
           <Typography variant="h6" component="div">
-            <Link component={RouterLink} to="/" color="Red" underline="none">
-              HyperGas
+            <Link component={RouterLink} to="/" color="#f5d600" underline="none">
+            Inferno
             </Link>
           </Typography>
         </Box>
